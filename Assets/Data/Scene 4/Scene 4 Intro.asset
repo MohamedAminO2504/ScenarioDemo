@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e300c38124d5749a1401eb21e0118e, type: 3}
+  m_Name: Scene 4 Intro
+  m_EditorClassIdentifier: 
+  videoName: 
+  videoClip: {fileID: 32900000, guid: 8d8312b9672b6bd40b01a14031082b08, type: 3}
+  choiceTime: 6
+  trimStartSeconds: 0
+  trimEndSeconds: 0
+  pivot: 0
+  IsEndVideo: 0
+  simpleNextVideo: {fileID: 11400000, guid: 277b6dcf27db8d54f9f450c6afd4321f, type: 2}
+  variablesToAdd: []
+  variablesToRemove: []
+  qtes: []
+  choices:
+  - choiceText: "Curieuse id\xE9e"
+    nextVideo: {fileID: 11400000, guid: 277b6dcf27db8d54f9f450c6afd4321f, type: 2}
+    conditionalVideos: []
+    eventToAdd: INATTENDUE
+    conditionEvent:
+    - SCENE_ACTION,SE_MOTIVER
+    - SE_MOTIVER,SCENE_COMIQUE
+    - DOUTER,SCENE_COMIQUE
+    emotionScore: 1
+  - choiceText: Sans retenue
+    nextVideo: {fileID: 11400000, guid: ad2f1955ca9c5134c9325ccce03accbe, type: 2}
+    conditionalVideos: []
+    eventToAdd: EXAGERE
+    conditionEvent:
+    - SCENE_ACTION,SE_MOTIVER
+    - DOUTER,SCENE_DRAMA
+    - DOUTER,SCENE_COMIQUE
+    emotionScore: 1
+  - choiceText: "\xC0 l\u2019instinct "
+    nextVideo: {fileID: 11400000, guid: 64a4f03c2ce5eaa4288490b43cc34768, type: 2}
+    conditionalVideos: []
+    eventToAdd: NATUREL
+    conditionEvent:
+    - DOUTER,SCENE_DRAMA
+    - SE_MOTIVER,SCENE_COMIQUE
+    emotionScore: 0

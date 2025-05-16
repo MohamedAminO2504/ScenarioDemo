@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e300c38124d5749a1401eb21e0118e, type: 3}
+  m_Name: Scene 2 X Scene Dramatique
+  m_EditorClassIdentifier: 
+  videoName: 
+  videoClip: {fileID: 32900000, guid: d31dfe4067689554a838318b0f411719, type: 3}
+  choiceTime: 0
+  trimStartSeconds: 0
+  trimEndSeconds: 0
+  pivot: 0
+  simpleNextVideo: {fileID: 11400000, guid: 8eb68f25010858045a38c8a7b79f2e3a, type: 2}
+  variablesToAdd: []
+  variablesToRemove: []
+  qtes:
+  - time: 5
+    duration: 0
+    expectedDirection: 
+    type: 0
+    buttonsToShow: 1
+    played: 0
+  - time: 10
+    duration: 2
+    expectedDirection: Left
+    type: 1
+    buttonsToShow: 1
+    played: 0
+  - time: 15
+    duration: 2
+    expectedDirection: Right
+    type: 1
+    buttonsToShow: 1
+    played: 0
+  - time: 20
+    duration: 2
+    expectedDirection: Right
+    type: 0
+    buttonsToShow: 2
+    played: 0
+  choices: []

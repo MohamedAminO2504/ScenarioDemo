@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e300c38124d5749a1401eb21e0118e, type: 3}
+  m_Name: Scene 1 Introduction
+  m_EditorClassIdentifier: 
+  videoName: Intro
+  videoClip: {fileID: 32900000, guid: dab91fbaedad86949b51e83116875ba0, type: 3}
+  choiceTime: 20
+  trimStartSeconds: 0
+  trimEndSeconds: 0
+  pivot: 0
+  IsEndVideo: 0
+  simpleNextVideo: {fileID: 11400000, guid: 6527f229aa2851e45a326883361b24f0, type: 2}
+  variablesToAdd: []
+  variablesToRemove: []
+  qtes: []
+  choices:
+  - choiceText: Droit devant
+    nextVideo: {fileID: 11400000, guid: 6527f229aa2851e45a326883361b24f0, type: 2}
+    conditionalVideos: []
+    eventToAdd: SE_MOTIVER
+    conditionEvent: []
+    emotionScore: 3
+  - choiceText: Un instant
+    nextVideo: {fileID: 11400000, guid: f4f3ce4515c0229409d26f84e2269b3e, type: 2}
+    conditionalVideos: []
+    eventToAdd: DOUTER
+    conditionEvent: []
+    emotionScore: -3

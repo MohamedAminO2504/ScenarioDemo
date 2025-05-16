@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e300c38124d5749a1401eb21e0118e, type: 3}
+  m_Name: Scene 5 Intro
+  m_EditorClassIdentifier: 
+  videoName: 
+  videoClip: {fileID: 32900000, guid: 2745576f88124ed4ea8880d088cf72ab, type: 3}
+  choiceTime: 21.5
+  trimStartSeconds: 0
+  trimEndSeconds: 0
+  pivot: 0
+  IsEndVideo: 0
+  simpleNextVideo: {fileID: 11400000, guid: bec371b0e93c1df4fb8c2967a2450bcf, type: 2}
+  variablesToAdd: []
+  variablesToRemove: []
+  qtes: []
+  choices:
+  - choiceText: Analyser ses erreurs
+    nextVideo: {fileID: 11400000, guid: 3e2d9e2b85c734b488b89659c472da83, type: 2}
+    conditionalVideos: []
+    eventToAdd: ANALYSE
+    conditionEvent:
+    - DOUTER
+    emotionScore: -2
+  - choiceText: Et moi, alors ?
+    nextVideo: {fileID: 11400000, guid: d32c410ecf55cd74c91b774b1c039871, type: 2}
+    conditionalVideos: []
+    eventToAdd: DECOURAGER
+    conditionEvent: []
+    emotionScore: -5
+  - choiceText: "Se f\xE9liciter"
+    nextVideo: {fileID: 11400000, guid: bec371b0e93c1df4fb8c2967a2450bcf, type: 2}
+    conditionalVideos: []
+    eventToAdd: FELICITER
+    conditionEvent:
+    - SE_MOTIVER
+    emotionScore: 3

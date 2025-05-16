@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e300c38124d5749a1401eb21e0118e, type: 3}
+  m_Name: Scene 6 Intro
+  m_EditorClassIdentifier: 
+  videoName: 
+  videoClip: {fileID: 32900000, guid: ec6321a5058218c41ac70819f2429f7d, type: 3}
+  choiceTime: 18
+  trimStartSeconds: 0
+  trimEndSeconds: 0
+  pivot: 0
+  IsEndVideo: 0
+  simpleNextVideo: {fileID: 11400000, guid: dbee5413169d0394ead5f2fcc35e0a6c, type: 2}
+  variablesToAdd: []
+  variablesToRemove: []
+  qtes: []
+  choices:
+  - choiceText: "Comme \xE7a vient"
+    nextVideo: {fileID: 11400000, guid: df2a4520675548c4ab077b6d70567f33, type: 2}
+    conditionalVideos: []
+    eventToAdd: SANS_PRESSION
+    conditionEvent: []
+    emotionScore: 0
+  - choiceText: Tout donner
+    nextVideo: {fileID: 11400000, guid: 5d13fef5626e4834fb5bc3928ab36608, type: 2}
+    conditionalVideos: []
+    eventToAdd: DONNANT_TOUT
+    conditionEvent:
+    - ANALYSE
+    emotionScore: 0
+  - choiceText: "Comme au cin\xE9"
+    nextVideo: {fileID: 11400000, guid: dbee5413169d0394ead5f2fcc35e0a6c, type: 2}
+    conditionalVideos: []
+    eventToAdd: IMITER
+    conditionEvent:
+    - FELICITER
+    - DECOURAGER
+    emotionScore: 0

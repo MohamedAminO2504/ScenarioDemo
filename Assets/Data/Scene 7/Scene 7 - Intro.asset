@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e300c38124d5749a1401eb21e0118e, type: 3}
+  m_Name: Scene 7 - Intro
+  m_EditorClassIdentifier: 
+  videoName: 
+  videoClip: {fileID: 32900000, guid: e3bd859c9c6486e4cba81fcda55440c4, type: 3}
+  choiceTime: 11
+  trimStartSeconds: 0
+  trimEndSeconds: 0
+  pivot: 0
+  IsEndVideo: 0
+  simpleNextVideo: {fileID: 11400000, guid: 3e5df9fc57925c14b8e62d9f6f3bca97, type: 2}
+  variablesToAdd: []
+  variablesToRemove: []
+  qtes: []
+  choices:
+  - choiceText: Une seconde
+    nextVideo: {fileID: 11400000, guid: c645735206c86b548bed1d67c9613d3d, type: 2}
+    conditionalVideos: []
+    eventToAdd: DOUTER
+    conditionEvent:
+    - SANS_PRESSION
+    - DONNANT_TOUT
+    emotionScore: -2
+  - choiceText: 'Pas de retour '
+    nextVideo: {fileID: 11400000, guid: bd4183f7581d2ee409675548fbe76734, type: 2}
+    conditionalVideos: []
+    eventToAdd: ENVOYER
+    conditionEvent:
+    - SANS_PRESSION
+    - IMITER
+    emotionScore: 0
+  - choiceText: "Je veux \xEAtre s\xFBr"
+    nextVideo: {fileID: 11400000, guid: 28d29cd173b09654ca5563ef12efff93, type: 2}
+    conditionalVideos: []
+    eventToAdd: REGARDER
+    conditionEvent:
+    - DONNANT_TOUT
+    - IMITER
+    emotionScore: -1

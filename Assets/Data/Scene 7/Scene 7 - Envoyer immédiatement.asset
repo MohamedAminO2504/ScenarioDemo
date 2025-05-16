@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e300c38124d5749a1401eb21e0118e, type: 3}
+  m_Name: "Scene 7 - Envoyer imm\xE9diatement"
+  m_EditorClassIdentifier: 
+  videoName: 
+  videoClip: {fileID: 32900000, guid: 4f08c5a34b8062b4aa4bd1abbcff45a1, type: 3}
+  choiceTime: 0
+  trimStartSeconds: 0
+  trimEndSeconds: 0
+  pivot: 0
+  simpleNextVideo: {fileID: 11400000, guid: 3e5df9fc57925c14b8e62d9f6f3bca97, type: 2}
+  variablesToAdd: []
+  variablesToRemove: []
+  qtes:
+  - time: 8
+    duration: 0
+    expectedDirection: 
+    type: 0
+    buttonsToShow: 3
+    played: 1
+  - time: 15
+    duration: 0
+    expectedDirection: Left
+    type: 0
+    buttonsToShow: 4
+    played: 0
+  choices: []
